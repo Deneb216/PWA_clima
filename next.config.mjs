@@ -9,7 +9,7 @@ const withPWA = withPWAInit({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  turbopack: {}, // <- Obligatorio en Next.js 16 al usar plugins con Webpack
+  turbopack: {}, 
   images: {
     remotePatterns: [
       {
